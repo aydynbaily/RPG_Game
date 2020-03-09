@@ -1,3 +1,10 @@
-RPG Game:
-    ✔ Add main game file (game.py) @done(2020-03-09 13:43) @project(RPG Game)
-    ✔ Add changelog.md @done(2020-03-09 13:44) @project(RPG Game)
+Changelog:
+    ✔ Add changelog.md @done(2020-03-09 13:54) @project(Changelog)
+    ✔ Create version 0.1 and list changes @done(2020-03-09 13:53) @project(Changelog)
+
+README:
+    ✔ Update README.md @done(2020-03-09 13:54) @project(README)
+    ✔ Format README.md @done(2020-03-09 13:54) @project(README)
+
+RPG GAME:
+    ✔ Create main game file @done(2020-03-09 13:54) @project(RPG GAME)
