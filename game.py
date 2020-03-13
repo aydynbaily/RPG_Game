@@ -1,4 +1,10 @@
-# Dictionary of locations that are in the game
+# Date Created: 3/10/20
+# Date last modified: 3/12/20
+# Name: Aydyn Baily
+# Description: Dictionaries that contain locations, items, and stats
+
+
+# Dictionary that contains locations in the game
 locations = {
     'floor 1': 'skeletons and goblins',
     'floor 2': 'orcs and knights',
@@ -37,4 +43,17 @@ for stat, value in character.items():
 print("\n")
 
 
-# Dictionary that contains items found throughout the game
+# Nested dictionary that contains starting items and their stats
+starting_items = {1: {'Shortsword': '3 ATK'},
+                  2: {'Health Potion': '25 HP'},
+                  3: {'Leather Armor': '2 DEF'}}
+
+# Prints out the dictionary of starting items
+for weapon, value in starting_items.items():
+    print(value)
+print("\n")
+
+# Prints out a sentence describing the stats of each starting item
+print(f"The shortsword has a base stat of {starting_items[1]['Shortsword']}")
+print(f"Health potions heal {starting_items[2]['Health Potion']}")
+print(f"Leather armor has a base stat of {starting_items[3]['Leather Armor']}")
